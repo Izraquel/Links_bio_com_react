@@ -25,12 +25,10 @@ function Home() {
           <Profile src={raquel} />
           <Name>Raquel Izidório</Name>
           <Description>@raquelizidorio_</Description>
-          {/* <Description>Estudando JavaScript | TypeScript | React | NodeJS</Description> */}
         </Header>
 
         <Grid_cards>
           <Button
-            style={{ animationDelay: '0s' }}
             href="https://www.instagram.com/raquelizidorio_/"
             className="item_instagram"
           >
@@ -39,7 +37,6 @@ function Home() {
           </Button>
 
           <Button
-            style={{ animationDelay: '.3s' }}
             href="https://github.com/Izraquel"
             className="item_github"
           >
@@ -48,7 +45,6 @@ function Home() {
           </Button>
 
           <Button
-            style={{ animationDelay: '.6s' }}
             href="https://www.linkedin.com/in/raquel-izidorio/"
             className="item_linkedin"
           >
@@ -57,7 +53,6 @@ function Home() {
           </Button>
 
           <Button
-            style={{ animationDelay: '.9s' }}
             href="mailto:raquell-izidorio_29@hotmail.com"
             className="item_email"
           >

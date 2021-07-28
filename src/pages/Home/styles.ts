@@ -45,25 +45,17 @@ export const Grid_cards = styled.div`
       #e6683c 25%,
       #dc2743 50%,
       #cc2366 75%,
-      #bc1888 100%
-    );
-    height: 100%;
+      #bc1888 100%);
+
+    height: 100px;
     width: 100%;
     border-radius: 5px;
-  }
-
-  .instagram,
-  .github,
-  .linkedin,
-  .email {
-    padding: 8px;
   }
 
   .item_github {
     background: linear-gradient(58deg, #722cd8 8%, #9a56fd 98%);
     height: 100px;
     width: 100%;
-
     border-radius: 5px;
   }
 
@@ -71,7 +63,6 @@ export const Grid_cards = styled.div`
     background: linear-gradient(45deg, #005aa7 0%, #1a84ca 25%);
     height: 100px;
     width: 100%;
-
     border-radius: 5px;
   }
 
@@ -79,19 +70,31 @@ export const Grid_cards = styled.div`
     background: linear-gradient(58deg, rgb(32, 31, 33) 8%, rgb(50, 48, 53) 98%);
     height: 100px;
     width: 100%;
-
     border-radius: 5px;
   }
 
+  .instagram,
+  .github,
+  .linkedin,
+  .email,
+  .instagram {
+    padding: 8px;
+  }
+
   @media (max-width: 540px) {
-    margin-top: 2.4rem;
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 22px;
   }
 `;
 export const Button = styled.a`
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px;
 
   &:hover,
   &:active {

@@ -23,7 +23,7 @@ body, input, button {
 #root {
   max-width: 1160px;
   margin: 0 auto;
-  //padding: 60px 60px;
+  //padding: 20px;
 }
 
 button {
